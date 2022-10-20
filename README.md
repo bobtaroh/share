@@ -1,4 +1,4 @@
 # Repository for sharing
 This repository is for sharing.
-- [Classical Shadow](/Classical Shadow/README.md)
+- [Classical Shadow](/Classical%20Shadow)
 - [Shallow Trotter Circuit](\Shallow Trotter Circuit)
