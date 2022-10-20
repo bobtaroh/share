@@ -1,4 +1,4 @@
-# Classical Shadow　の実装
+# Classical Shadow
 量子力学に従う系の状態は一般に $|\Psi\rangle$ というベクトルで記述できる。  
 その状態に対して、密度行列 $\rho=|\Psi\rangle\langle\Psi|$ という量が定義される。　  
 この量を用いることで系が持っている量子状態や物理量の期待値などの評価を行うことができる。  
