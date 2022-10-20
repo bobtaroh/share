@@ -1,3 +1,4 @@
 # Repository for sharing
 This repository is for sharing.
-- [Classical Shadow](/classical_shadow_実装)
+- [Classical Shadow](/Classical Shadow)
+- [Shallow Trotter Circuit](/Shallow Trotter Circuit)
