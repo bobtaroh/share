@@ -1,5 +1,5 @@
 # Repository for sharing my efforts
-- 大学院における研究関連  
+- 大学院でも研究関連  
 研究テーマ：量子コンピューターを用いて、高速で正確な量子多体計算手法を開拓する。  
 研究に応用できそうな技術を論文をもとに実装した時のコード  
   - [Classical Shadow](/Classical%20Shadow)  
