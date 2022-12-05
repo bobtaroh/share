@@ -1,0 +1,77 @@
+h1 {
+  padding: 1rem 2rem;
+  border-top: 3px dashed #000;
+  border-bottom: 3px dashed #000;
+  font-size: 30px;
+}
+
+h1:first-letter {
+  font-size: 50px;
+  color: #DEB887;
+}
+
+table th{
+  padding : 20px 10px;
+}
+
+table td{
+  padding : 20px 10px;
+}
+table{
+  width: 60%;
+}
+
+th{
+  width: 40%;
+}
+
+td{
+  width: 20%;
+}
+
+th,td{
+  border:solid 1px #aaaaaa;
+}
+
+thead{
+  color:white; /*文字色*/
+  background-color: #CD853F; /*背景色*/
+}
+
+
+
+.button_new a {
+    background: #eee;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 240px;
+    padding: 10px 25px;
+    color: #313131;
+    transition: 0.3s ease-in-out;
+    font-weight: 500;
+    z-index:0;
+    border-left: solid 5px #A87B4F;
+}
+.button_new a:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 0;
+    display: block;
+    background: #A87B4F;
+    transition: .3s;
+    left:0;
+}
+.button_new a:hover {
+    color: #FFF;
+}
+.button_new a:hover:before {
+    width: 100%;
+    z-index: -1;
+}
+
+

@@ -1,0 +1,34 @@
+@(bulletinForm: Form[(String, String, String)])(implicit request: MessagesRequestHeader)
+
+<html>
+    <head>
+        <title>Sakutto掲示板</title>
+        <link rel="shortcut icon" type="image/png" href="@routes.Assets.versioned("images/favicon_create.png")">
+        <link rel="stylesheet" media="screen" href="@routes.Assets.versioned("stylesheets/create.css")">
+    </head>
+    <body align="center" bgcolor="#FFE4E1">
+        <img src="@routes.Assets.versioned("images/favicon_create.png")" width="50" style="display: block; margin: auto;">
+        <h1>Sakutto登録</h1>
+        @helper.form(action = routes.BulletinController.bulletinAdd()) {
+            @helper.CSRF.formField
+            <fieldset>
+                <table align="center" class="table">
+                    <tr align="center">
+                        <th>タイトル</th> <th>名前</th>
+                    </tr>
+                    <tr align="center">
+                        <td>@helper.inputText(bulletinForm("title"), '_label -> "")</td> <td>@helper.inputText(bulletinForm("name"), '_label -> "")</td>
+                    </tr>
+                    <tr align="center">
+                        <th colspan="2">掲示内容</th>
+                    </tr>
+                    <tr align="center">
+                        <td colspan="2">@helper.textarea(bulletinForm("content"), args = 'rows -> 10, 'cols -> 50, '_label -> "")</td>
+                    </tr>
+                </table>
+                <!--<input type="time">-->
+            </fieldset>
+            <input type="submit" value="登録" class="decorated-btn click-down">
+        }
+    </body>
+</html>

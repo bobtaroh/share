@@ -1,0 +1,36 @@
+@import services._
+@(items: Seq[Bulletin])
+
+<html>
+<head>
+    <title>Sakutto掲示板</title>
+    <link rel="stylesheet" media="screen" href="@routes.Assets.versioned("stylesheets/list.css")">
+    <link rel="shortcut icon" type="image/png" href="@routes.Assets.versioned("images/favicon_list.png")">
+</head>
+<body bgcolor="#FAF0E6">
+    <section>
+        <img src="@routes.Assets.versioned("images/favicon_list.png")" width="50" style="display: block; margin: auto;">
+        <h1 align="center">Sakutto掲示板</h1>
+        <table align="center">
+            <thead>
+                <tr>
+                    <th>タイトル</th>
+                    <th>名前</th>
+                </tr>
+            </thead>
+            <tbody>
+                @items.map { bulletin =>
+                    <tr>
+                        <td><a href="@controllers.routes.BulletinController.bulletinEdit(bulletin.id.get)">@bulletin.title</a></td>
+                        <td><a href="@controllers.routes.BulletinController.bulletinEdit(bulletin.id.get)">@bulletin.name</a></td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+        <div class="button_new">
+            <a href="@controllers.routes.BulletinController.bulletinNew()">新規登録</a>
+        </div>
+    </section>
+
+</body>
+</html>

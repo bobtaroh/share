@@ -1,0 +1,55 @@
+@(id: Long, bulletinForm: Form[(String, String, String)])(implicit request: MessagesRequestHeader)
+
+<html>
+    <head>
+        <title>Sakutto掲示板</title>
+        <link rel="stylesheet" media="screen" href="@routes.Assets.versioned("stylesheets/edit.css")">
+        <link rel="shortcut icon" type="image/png" href="@routes.Assets.versioned("images/favicon_edit.png")">
+    </head>
+    <body align="center" bgcolor="#F5FFFA">
+        <img src="@routes.Assets.versioned("images/sakutto_edit.png")" width="50" style="display: block; margin: auto;">
+        <h1>Sakutto更新</h1>
+        @helper.form(action = routes.BulletinController.bulletinUpdate(id)) {
+            @helper.CSRF.formField
+            <fieldset>
+                <legend>更新内容</legend>
+                <table align="center" class="table">
+                    <tr align="center">
+                        <th>タイトル</th> <th>名前</th>
+                    </tr>
+                    <tr align="center">
+                        <td>@helper.inputText(bulletinForm("title"), '_label -> "")</td> <td>@helper.inputText(bulletinForm("name"), '_label -> "")</td>
+                    </tr>
+                    <tr align="center">
+                        <th colspan="2">掲示内容</th>
+                    </tr>
+                    <tr align="center">
+                        <td colspan="2">@helper.textarea(bulletinForm("content"), args = 'rows -> 10, 'cols -> 50, '_label -> "")</td>
+                    </tr>
+                </table>
+            </fieldset>
+            <input type="submit" value="更新" class="decorated-btn-update click-down">
+        }
+        @helper.form(action = routes.BulletinController.bulletinDelete(id)) {
+            @helper.CSRF.formField
+                <input type="submit" value="削除" class="decorated-btn-delete click-down">
+        }
+        <script>
+            //今日の日付データを変数に格納
+            //変数は"today"とする
+            var today=new Date();
+
+            var year = today.getFullYear();
+            var month = today.getMonth()+1;
+            var week = today.getDay();
+            var day = today.getDate();
+            var hour = today.getHours();
+            var minute = today.getMinutes();
+            var second = today.getSeconds();
+            var week_ja= new Array("日","月","火","水","木","金","土");
+
+            document.write(year+"年"+month+"月"+day+"日 "+week_ja[week]+"曜日 "+hour+"時"+minute+"分"+second+"秒");
+
+        </script>
+    </body>
+</html>

@@ -1,0 +1,33 @@
+h1 {
+  padding: 1rem 2rem;
+  border-top: 3px dashed #000;
+  border-bottom: 3px dashed #000;
+  font-size: 30px;
+}
+
+h1:first-letter {
+  font-size: 50px;
+  color: #C71585;
+}
+
+dd {
+    margin-inline-start: 0px;
+}
+
+.decorated-btn {
+  background-color: gold;
+  font-size: 12px;
+  border-radius: 5px;
+  border-bottom: solid 3px goldenrod;
+  box-shadow: 3px 3px 3px gray;
+  transition: 0.3s;
+}
+
+.click-down:active {
+  transform: translateY(2px);
+  border-bottom: none;
+}
+
+.decorated-btn:hover {
+  background-color: orange;
+}

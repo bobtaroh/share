@@ -1,0 +1,11 @@
+GET     /bulletin/helloworld                        controllers.BulletinController.helloworld()
+GET     /bulletin                                   controllers.BulletinController.list()
+GET     /bulletin/new                               controllers.BulletinController.bulletinNew()
+POST    /bulletin                                   controllers.BulletinController.bulletinAdd()
+GET     /bulletin/edit/:bulletinId                  controllers.BulletinController.bulletinEdit(bulletinId:Long)
+POST    /bulletin/:bulletinId                       controllers.BulletinController.bulletinUpdate(bulletinId:Long)
+POST    /bulletin/:bulletinId/delete                controllers.BulletinController.bulletinDelete(bulletinId:Long)
+
+GET     /assets/*file                               controllers.Assets.versioned(path="/public", file: Asset)
+
+
