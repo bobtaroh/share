@@ -1,0 +1,29 @@
+@import services._
+@(items: Seq[Todo])
+
+<html>
+<head>
+    <title>Todo</title>
+</head>
+<body>
+
+<section>
+    <table>
+        <thead>
+        <tr>
+            <h1>さくっと掲示板</h1>
+        </tr>
+        </thead>
+        <tbody>
+        <ol>
+        @items.map { todo =>
+            <li><a href="@controllers.routes.TodoController.todoEdit(todo.id.get)">@todo.name</a></li>
+        }
+        </ol>
+        </tbody>
+    </table>
+    <a href="@controllers.routes.TodoController.todoNew()">登録画面</a>
+</section>
+
+</body>
+</html>
