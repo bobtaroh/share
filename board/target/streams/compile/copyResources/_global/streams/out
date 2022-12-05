@@ -1,5 +1,0 @@
-[0m[[0m[0mdebug[0m] [0m[0mCopy resource mappings: [0m
-[0m[[0m[0mdebug[0m] [0m[0m	(/Users/koboss1228/Documents/study/programing/chatwork/board/conf/logback.xml,/Users/koboss1228/Documents/study/programing/chatwork/board/target/scala-2.13/classes/logback.xml)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	(/Users/koboss1228/Documents/study/programing/chatwork/board/conf/messages,/Users/koboss1228/Documents/study/programing/chatwork/board/target/scala-2.13/classes/messages)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	(/Users/koboss1228/Documents/study/programing/chatwork/board/conf/application.conf,/Users/koboss1228/Documents/study/programing/chatwork/board/target/scala-2.13/classes/application.conf)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	(/Users/koboss1228/Documents/study/programing/chatwork/board/conf/routes,/Users/koboss1228/Documents/study/programing/chatwork/board/target/scala-2.13/classes/routes)[0m
