@@ -1,0 +1,20 @@
+[0m[[0m[31merror[0m] [0m[0m/Users/koboss1228/Documents/study/programing/chatwork/board/app/controllers/TextboardController.scala:10:8: object Controller is not a member of package play.api.mvc[0m
+[0m[[0m[31merror[0m] [0m[0mimport play.api.mvc.Controller[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/koboss1228/Documents/study/programing/chatwork/board/app/controllers/TextboardController.scala:26:13: not found: value Action[0m
+[0m[[0m[31merror[0m] [0m[0m  def get = Action { implicit request =>[0m
+[0m[[0m[31merror[0m] [0m[0m            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/koboss1228/Documents/study/programing/chatwork/board/app/controllers/TextboardController.scala:27:7: not enough arguments for method apply: (header: akka.http.scaladsl.model.HttpHeader, errors: List[akka.http.scaladsl.model.ErrorInfo]): akka.http.scaladsl.model.HttpHeader.ParsingResult.Ok in object Ok.[0m
+[0m[[0m[31merror[0m] [0m[0mUnspecified value parameter errors.[0m
+[0m[[0m[31merror[0m] [0m[0m    Ok(views.html.index(PostRepository.findAll, form))[0m
+[0m[[0m[31merror[0m] [0m[0m      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/koboss1228/Documents/study/programing/chatwork/board/app/controllers/TextboardController.scala:30:14: not found: value Action[0m
+[0m[[0m[31merror[0m] [0m[0m  def post = Action { implicit request =>[0m
+[0m[[0m[31merror[0m] [0m[0m             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/koboss1228/Documents/study/programing/chatwork/board/app/controllers/TextboardController.scala:31:10: Cannot find any HTTP Request here[0m
+[0m[[0m[31merror[0m] [0m[0m    form.bindFromRequest.fold([0m
+[0m[[0m[31merror[0m] [0m[0m         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/koboss1228/Documents/study/programing/chatwork/board/app/controllers/TextboardController.scala:32:43: An implicit Messages instance was not found.  Please see https://www.playframework.com/documentation/latest/ScalaI18N[0m
+[0m[[0m[31merror[0m] [0m[0m      error => BadRequest(views.html.index(PostRepository.findAll, error)),[0m
+[0m[[0m[31merror[0m] [0m[0m                                          ^[0m
+[0m[[0m[31merror[0m] [0m[0m6 errors found[0m
