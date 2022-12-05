@@ -1,4 +1,0 @@
-[0m[[0m[33mwarn[0m] [0m[0m/Users/koboss1228/Documents/study/programing/chatwork/play-hands-on/app/views/editForm.scala.html:16:41: symbol literal is deprecated; use Symbol("_label") instead[0m
-[0m[[0m[33mwarn[0m] [0m[0m    @helper.inputText(todoForm("name"), '_label -> "名前")[0m
-[0m[[0m[33mwarn[0m] [0m[0m                                        ^[0m
-[0m[[0m[33mwarn[0m] [0m[0mone warning found[0m
