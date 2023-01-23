@@ -20,13 +20,10 @@
     夏に新入隊員が入隊し、コロナも収まってきたことから、夏キャンプを企画。
       - [計画書](https://docs.google.com/spreadsheets/d/1_EuFmZh3nJQJB0f8_tJ3gvvkecW6Bm9fPNdvvjUvnps/edit?usp=sharing)
       - [報告書](https://docs.google.com/spreadsheets/d/1ujVG872wvWwEwaVUT1BtnXyN1M8D1uWahFaHEUgcmkw/edit?usp=sharing)
-      - [写真](https://photos.app.goo.gl/xvZaR5mBgKjFq7AVA)
     - 2022年10月23日団行事  
     私が所属している団の行事が開催され、全体の企画と運営に携わった。
       - [計画書](https://docs.google.com/document/d/1gf0Gf6CYQLUlmFO1NSEhWIwfGzdwEH6uW-BlrFEg2Eg/edit)  
-      - [写真](https://photos.app.goo.gl/3gJGFfcr1YRFdSJeA)
   - ボーイスカウト隊の副長としての活動
     - 2022年6月26日手長海老釣り  
     荒川土手で手作りで作った竿を使って、手長海老を釣る集会。  
       - [計画書](https://docs.google.com/spreadsheets/d/1r63nYakpvM7Rns5VVHmujp-wX3CWZx_q-01hV1VBrbw/edit?usp=sharing)
-      - [写真](https://photos.app.goo.gl/aQCHMLjPxyoV8dTg7)
