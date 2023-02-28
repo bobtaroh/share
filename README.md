@@ -7,7 +7,7 @@
   - [Shallow Trotter Circuit](/Shallow%20Trotter%20Circuit)  
 [2]Mingxia Huo and Ying Li. [Error-resilient Monte Carlo quantum simulation of imaginary time](https://arxiv.org/abs/2109.07807). arXiv:2109.07807v2 [quant-ph] 15 Sep 2022
   - [2022年量子ソフトウェア勉強会の課題](2022QSRH)  
-  大阪大学、豊田通商株式会社、株式会社QunaSysが主催した量子ソフトウェアに関する知見を深めることを目的とした[量子ソフトウェア勉強会](https://qsrh.jp/seminar/)に参加。
+  大阪大学、豊田通商株式会社、株式会社QunaSysが主催した量子ソフトウェアに関する知見を深めることを目的とした[量子ソフトウェア勉強会](https://qsrh.jp/seminar/)に参加。([受講証明書](https://drive.google.com/file/d/12iR1nVUhjR2gFdubDCHvUoAYxHhHp9EG/view?usp=sharing))
 ## [掲示板アプリケーション](/sakutto)
 クリスマスの時期に誰もが一度は口にするサクッとした食感が売りのジンジャーブレッドマンのようにサクッと掲示板を書いて、投稿することができるアプリケーション。機能が厳選されているため、誰が何を投稿したのかをすぐに確認することができる。また、投稿した内容を再度編集することができる
 ## [備品シート](https://docs.google.com/spreadsheets/d/1b-LmbCnbQ5vHn6tLBLi_L90FxEI6zw9ZDlCLzLZCJ9M/edit?usp=sharing)  
